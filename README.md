@@ -1,5 +1,5 @@
-# Essnusb plus
-Extension to previous project Essnusb. For manual build follow the steps below.
+# EssnusbV2
+Extension to previous project Essnusb
 
 # 1.Prerequisites (The below are only if you want to build and run the application locally)
 The project depends on the following subproject (for each the version used is added after the name): <br />

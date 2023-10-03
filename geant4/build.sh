@@ -20,8 +20,6 @@ base_directory=${PWD}
 
 # Set third party name dirs
 geant4_dir=geant4
-genie_dir=genie
-root_dir=root
 
 geant4_clhep=clhep-2.4.6.4.tgz
 geant4_clhep_dir=${dependency_dir}/${geant4_dir}/2.4.6.4
