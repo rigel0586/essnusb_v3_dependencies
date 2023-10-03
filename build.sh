@@ -9,3 +9,7 @@ cd ..
 cd genie
 /bin/bash build.sh
 cd ..
+
+cd root
+/bin/bash build.sh
+cd ..
