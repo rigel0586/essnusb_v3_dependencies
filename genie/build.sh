@@ -29,6 +29,9 @@ genie_lhapdf6_dir=${dependency_dir}/${genie_dir}/LHAPDF-6.5.4
 genie_log4cpp_dir=${dependency_dir}/${genie_dir}/log4cpp
 genie_pythia6_dir=${dependency_dir}/${genie_dir}/pythia6
 
+# backup python link
+sudo cp /usr/bin/python /usr/bin/python_up
+
 # lhapdf5
 cd ${dependency_dir}/${genie_dir}
 tar -xf ${genie_lhapdf5}
@@ -55,6 +58,9 @@ gmake
 gmake install
 lhapdf6lib=${genie_lhapdf6_dir}/install/lib/libLHAPDF.so
 check_lib_exists ${lhapdf6lib}
+
+# restore python link
+sudo cp /usr/bin/python_up /usr/bin/python
 
 # log4cpp
 cd ${dependency_dir}/${genie_dir}
