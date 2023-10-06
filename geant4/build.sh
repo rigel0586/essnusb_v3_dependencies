@@ -57,8 +57,8 @@ cmake -S ${geant4_expat_dir} -B . -DCMAKE_INSTALL_PREFIX=${geant4_expat_dir}/ins
 cmake --build .
 cmake --install .
 
-# expat_lib=${geant4_expat_dir}/install/lib/libexpat.so
-# check_lib_exists ${expat_lib}
+expat_lib=${geant4_expat_dir}/install/lib/libexpat.so
+check_lib_exists ${expat_lib}
 
 # zlib
 cd ${dependency_dir}/${geant4_dir}
