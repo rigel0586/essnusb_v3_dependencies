@@ -78,6 +78,8 @@ gmake
 gmake install
 log4cpplib=${genie_log4cpp_dir}/install/lib/liblog4cpp.a
 check_lib_exists ${log4cpplib}
+log4cppsolib=${genie_log4cpp_dir}/install/lib/liblog4cpp.so
+check_lib_exists ${log4cppsolib}
 
 # pythia6
 cd ${genie_pythia6_dir}
