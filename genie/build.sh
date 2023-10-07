@@ -72,6 +72,10 @@ cd build
 cmake -S ${genie_log4cpp_dir} -B . -DCMAKE_INSTALL_PREFIX=${genie_log4cpp_dir}/install
 cmake --build .
 cmake --install .
+cd ${genie_log4cpp_dir}
+./configure --prefix=${genie_log4cpp_dir}/install
+gmake 
+gmake install
 log4cpplib=${genie_log4cpp_dir}/install/lib/liblog4cpp.a
 check_lib_exists ${log4cpplib}
 
