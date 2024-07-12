@@ -34,7 +34,7 @@ sudo cp /usr/bin/python /usr/bin/python_up
 
 # lhapdf5
 cd ${dependency_dir}/${genie_dir}
-#tar -xf ${genie_lhapdf5}
+tar -xf ${genie_lhapdf5}
 cd ${genie_lhapdf5_dir}
 mkdir build
 mkdir install
