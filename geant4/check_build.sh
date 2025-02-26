@@ -24,8 +24,8 @@ geant4_dir=geant4
 geant4_clhep=clhep-2.4.6.4.tgz
 geant4_clhep_dir=${dependency_dir}/${geant4_dir}/2.4.6.4
 
-geant4_expat=expat-2.5.0.tar.gz
-geant4_expat_dir=${dependency_dir}/${geant4_dir}/expat-2.5.0
+geant4_expat=expat-2.6.4.tar.gz
+geant4_expat_dir=${dependency_dir}/${geant4_dir}/expat-2.6.4
 
 geant4_zlib=zlib-1.2.13.tar.gz
 geant4_zlib_dir=${dependency_dir}/${geant4_dir}/zlib-1.2.13
