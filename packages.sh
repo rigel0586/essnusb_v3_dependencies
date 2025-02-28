@@ -17,3 +17,4 @@ sudo apt-get -y install qt3d5-dev qt3d5-examples qt3d5-doc libxmuu-dev
 
 sudo apt-get -y install libnsl-dev libnsl2
 
+sudo apt-get -y install libreadline-dev libbz2-dev libsqlite3-dev
